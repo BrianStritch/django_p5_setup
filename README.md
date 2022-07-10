@@ -3,10 +3,6 @@
 
 ## Web Marketing
 
-### Content Marketing
-
-Relevant internal advert sections with links have been included across user-facing pages to promote the music lessons and store products available. The aim of the adverts is to direct the attention of the user to the relevant pages and convert them to customers.
-
 ### Social Media Marketing
 
 A Facebook business page for the studio has been set up to ensure organic growth of the business. The site is linked to the business account through the facebook social media link. The Facebook page includes a link back to the site.
