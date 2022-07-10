@@ -55,5 +55,7 @@ coverage run manage.py test <br>
 coverage run manage.py test appname<br>
 manage.py test appname <br>
 
-
-
+pip install autopep8
+yapf -i my_project/views.py
+pip3 install yapf
+yapf -ir .

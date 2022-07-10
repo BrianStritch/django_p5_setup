@@ -1,4 +1,173 @@
 
+
+
+## Web Marketing
+
+### Content Marketing
+
+Relevant internal advert sections with links have been included across user-facing pages to promote the music lessons and store products available. The aim of the adverts is to direct the attention of the user to the relevant pages and convert them to customers.
+
+### Social Media Marketing
+
+A Facebook business page for the studio has been set up to ensure organic growth of the business. The site is linked to the business account through the facebook social media link. The Facebook page includes a link back to the site.
+
+<a href="https://github.com/Claire-Potter/Belle-Musique-Studio/tree/main/project-files/facebook-business-page" target="_blank">Click here</a> to access images of the Facebook page.
+
+### Email Marketing
+
+The Student Showcase feature is used as an email marketing tool. It is a weekly update from the studio and includes a link to view the featured student of the week. It includes music lessons and music store advertisements, ensuring that users who have signed up for emails are directed to access our lessons and products. Users will opt-in to receive emails when they register for an account.
+
+## GDPR
+
+A privacy policy was generated through https://www.privacypolicygenerator.info/ and a link to the policy is available in the page footer.
+
+
+## Business Model
+
+### B2C – Business-to-consumer
+
+B2C businesses sell to their end-user. This is the business model selected and utilised for Belle Musique Studio. 
+
+![e-commerce business model](https://github.com/claire-potter/belle-musique-studio/blob/main/project-files/design/e-commerce-model.jpg)
+
+* Who is the customer? 
+    * The customer is the consumer, the individual by whom the purchased good or service will be used.
+* What will they buy?
+    * Belle Musique studio supplies music lesson subscriptions and music products. A customer would purchase a recurring subscription for a weekly music lesson or make a once off purchase from the store.
+* And how will they pay?
+    * All payments will be processed online through stripe.com.
+    * They will be secure.
+    * Products would require a once off payment to be made.
+    * Subscriptions would require a recurring payment set up. The customer will have the choice to set up a weekly, monthly or annual subscription and would be billed accordingly.
+* What data would need to be collected and stored?
+    * The required data to purchase a product would be:
+        * Full Name
+        * Email Address
+        * Credit Card Details
+        * Delivery Address Details
+        * Phone Number
+    * The required data to take out a recurring subscription:
+        * Full Name
+        * Email Address
+        * Credit Card Details
+        * Phone Number
+* Would the customer need to be authenticated?
+    * For a once off purchase from the store, the customer would not need an account. However, if they wish to store any of their information within the database they would need to register for an account with Belle Musique Studio.
+    * To take out a subscription for a weekly music lesson, as recurring payments are required, the customer will need to register and create an account in order to manage the subscription going forward.
+* Roles within the e-commerce process:
+    * Customer:
+        * Subscribes to a lesson or
+        * Orders a product
+    * Belle Musique Studio Site:
+       * Creates the customer and subscription record on Stripe and the database
+       * Processes payment with stripe and sets up recurring payments
+       * Creates the order and processes the payment through Stripe
+       * Collects address details for delivery
+    * Site Owner / Administrator:
+        * Schedules the weekly online lesson with the customer
+        * Provides the service
+        * Arranges delivery of the product to the customer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 pip3 install Django==3.2 <br>
 pip3 install django-crispy-forms <br>
 pip3 install django-countries==7.2.1 <br>
